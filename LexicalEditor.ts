@@ -8,6 +8,7 @@ export type EditorThemeClasses = {
 export type CreateEditorArgs = {
   theme?: EditorThemeClasses;
   parentEditor?: LexicalEditor;
+  
 };
 
 export function createEditor(editorConfig?: CreateEditorArgs): LexicalEditor {
